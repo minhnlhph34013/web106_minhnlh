@@ -1,0 +1,69 @@
+.bao{
+    display: grid;
+    border: 1px solid black;
+}
+header{
+    border: 1px solid black;
+    height: 130px;
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(155, 154, 154);
+}
+.logo img{
+    width: 200px;
+    height: 50%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.intro b{
+    padding-left: 100px;
+}
+.intro p{
+    padding-left: 50px;
+}
+.menu{
+    float: right;
+    padding-top: 10px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+.menu ul{
+    height: 0%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+.menu ul li{
+    height: 0%;
+    display: inline-block;
+    margin: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 5px;
+    font-size: large;
+    margin-top: 5px; 
+}
+.menu ul li a:hover{
+    color: orange;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 250px;
+}
+iframe{
+    width: 100%;
+    min-height: 1400px;
+}
+
+
+@media screen and (max-width: 375px){
+    
+}
+ 

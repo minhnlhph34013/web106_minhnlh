@@ -1,0 +1,49 @@
+.noidung{
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto; 
+}
+.sanpham img {
+    margin: 5px auto;
+    width: 80%;
+}
+.sanpham .ten {
+    color: rgb(75, 77, 226);
+    text-decoration: none;
+}
+.gia{
+    color: red;
+    text-decoration: none;
+}
+.ten:hover{
+    text-decoration:underline;
+}
+.gia:hover{
+    color: red;
+}
+.sanpham:hover{
+    box-shadow: 0 0 10px;
+}
+@media screen and (max-width: 768px){
+    .noidung{
+        text-align: center;
+        margin: 10px auto;
+        width: 80%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width: 375px){
+    .noidung{
+        text-align: center;
+        margin: 10px auto;
+        width: 80%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: auto;
+    }
+}
